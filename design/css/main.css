@@ -1,0 +1,355 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+/*title*/
+.interior {
+  position: absolute;
+  left: 277px;
+  top: 37px;
+  overflow: visible;
+  width: 250px;
+
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  color: black;
+}
+/*sub_heading text */
+.subdiv_left {
+  position: absolute;
+  width: 363px;
+  height: 19px;
+  left: 561px;
+  top: 48px;
+  overflow: visible;
+  white-space: nowrap;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(153, 153, 153, 1);
+}
+.about {
+  position: absolute;
+  width: 47px;
+  text-align: left;
+}
+.portfolio {
+  position: absolute;
+  left: 83px;
+  top: 0px;
+
+  width: 75px;
+}
+.testimonials {
+  position: absolute;
+  left: 195px;
+  top: 0px;
+
+  width: 97px;
+}
+.blog {
+  position: absolute;
+  left: 328px;
+  top: 0px;
+
+  width: 35px;
+}
+.contact {
+  position: absolute;
+  left: 1588px;
+  top: 48px;
+  overflow: visible;
+  width: 63px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(153, 153, 153, 1);
+}
+.header_image {
+  position: relative;
+  overflow: visible;
+  background-color: rgba(0, 0, 0, 0.3);
+  top: 109px;
+  width: 1920px;
+  height: 777px;
+}
+.main_heading {
+  position: absolute;
+  overflow: visible;
+  top: 1006px;
+  left: 666px;
+  width: 589px;
+  white-space: nowrap;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 54px;
+
+  text-align: center;
+
+  color: rgba(0, 0, 0, 1);
+}
+hr {
+  position: absolute;
+  display: block;
+  margin-top: 1241px;
+
+  margin-left: 272px;
+  margin-right: auto;
+
+  border-width: 1380px;
+  border-color: #707070;
+}
+/* .main_body {
+  position: absolute;
+  width: 1381px;
+  height: 1897px;
+  left: 270px;
+  top: 1241px;
+ 
+} */
+
+.tile {
+  position: absolute;
+  width: 1375px;
+  height: 575px;
+  left: 272px;
+  top: 1350px;
+  overflow: visible;
+}
+.tile1 {
+  position: absolute;
+  width: 433px;
+  height: 575px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.sub_heading {
+  position: absolute;
+  left: 1px;
+  top: 0px;
+  overflow: visible;
+  width: 62px;
+  white-space: nowrap;
+  line-height: 28px;
+
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 26px;
+  color: rgba(0, 0, 0, 1);
+}
+.pic {
+  position: absolute;
+  width: 433px;
+  height: 497px;
+  left: 0px;
+  top: 78px;
+  overflow: visible;
+}
+#first {
+  position: absolute;
+  width: 433px;
+  height: 289px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.detail {
+  position: absolute;
+  left: 0px;
+  top: 400px;
+
+  overflow: visible;
+  width: 434px;
+  height: 95px;
+  line-height: 28px;
+
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: rgba(153, 153, 153, 1);
+}
+.button {
+  position: absolute;
+  width: 147px;
+  height: 49px;
+  left: 0px;
+  top: 540px;
+  overflow: visible;
+}
+
+.tile2 {
+  position: absolute;
+  width: 433px;
+  height: 575px;
+  left: 471px;
+  top: 0px;
+  overflow: visible;
+}
+
+.tile3 {
+  position: absolute;
+  width: 434px;
+  height: 575px;
+  left: 940px;
+  top: 0px;
+  overflow: visible;
+}
+#more_info {
+  position: absolute;
+  left: 36px;
+  top: 14px;
+  overflow: visible;
+  width: 77px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 1);
+}
+.line_1 {
+  overflow: visible;
+  position: absolute;
+  width: 1380px;
+  height: 0.5px;
+  left: 271.5px;
+  top: 1240.5px;
+}
+.line_2 {
+  overflow: visible;
+  position: absolute;
+  width: 1380px;
+  height: 0.5px;
+  left: 270.5px;
+  top: 2038.5px;
+}
+.social {
+  position: absolute;
+  width: 1372px;
+  height: 796px;
+  left: 274px;
+  top: 2187px;
+  overflow: visible;
+  /* background-color: coral; */
+}
+.instagram {
+  position: absolute;
+  left: 504px;
+  top: 0px;
+  overflow: visible;
+  width: 365px;
+  white-space: nowrap;
+  line-height: 54px;
+  margin-top: -7px;
+  text-align: center;
+  font-family: 'Roboto',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 1);
+}
+.all_pics {
+  position: absolute;
+  width: 1372px;
+  height: 633px;
+  left: 0px;
+  top: 163px;
+  overflow: visible;
+}
+
+.big_pic {
+  position: absolute;
+  width: 631px;
+  height: 631px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.small_pic1 {
+  position: absolute;
+  width: 289px;
+  height: 289px;
+  left: 713px;
+  top: 0px;
+  overflow: visible;
+}
+.small_pic2 {
+  position: absolute;
+  width: 289px;
+  height: 289px;
+  left: 1083px;
+  top: 0px;
+  overflow: visible;
+}
+.small_pic3 {
+  position: absolute;
+  width: 289px;
+  height: 289px;
+  left: 713px;
+  top: 344px;
+  overflow: visible;
+}
+.small_pic4 {
+  position: absolute;
+  width: 289px;
+  height: 289px;
+  left: 1083px;
+  top: 344px;
+  overflow: visible;
+}
+
+.line_3 {
+  position: absolute;
+  overflow: visible;
+  width: 1920px;
+  /* height: 777px; */
+  left: 0px;
+  top: 3136px;
+}
+.footer {
+  /* position: relative; */
+
+  position: absolute;
+  overflow: visible;
+  width: 1920px;
+  height: 284px;
+  left: 0px;
+  top: 109px;
+}
+.facebook {
+  position: absolute;
+  left: 576px;
+  top: 3040px;
+  padding: 100px;
+  overflow: visible;
+  width: 373px;
+  white-space: nowrap;
+  line-height: 54px;
+
+  text-align: center;
+  font-family: Font Awesome 5 Brands;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  color: rgba(153, 153, 153, 1);
+}
+
